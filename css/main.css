@@ -1,8 +1,13 @@
 #pageImage{
     left: 0px;
     top: 0px;
-    
+    width: 100%;
 }
+
+body{
+    margin: 0px;
+}
+
 
 @media only screen and (max-width: 750px){
     #top{

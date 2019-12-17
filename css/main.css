@@ -1,11 +1,11 @@
 #pageImage{
     left: 0px;
     top: 0px;
-    position: relative;
+    
 }
 
 @media only screen and (max-width: 750px){
-    #pageImage{
+    #top{
         left: 0px;
         top: 0px;
         position: relative;

@@ -76,7 +76,7 @@ body{
     z-index: 1;
 }
 
-.fa fa-bars{
+#hamburger {
     color: white;
     width: 25px;
     height: 25px;

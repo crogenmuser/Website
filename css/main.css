@@ -68,8 +68,14 @@ body{
 }
 
 .icon {
-    right: 0px;
+    right: 10px;
+    top: 10px;
+    position: fixed;
+    z-index: 1;
+}
 
+.fa fa-bars{
+    color: black;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

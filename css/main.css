@@ -20,7 +20,11 @@ body{
 #message{
     width: 60%;
     margin: auto;
-    
+
+}
+
+#message > h1{
+    text-align: center;
 }
 
 @media only screen and (max-width: 750px){

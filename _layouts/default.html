@@ -15,9 +15,6 @@
             <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-            
-            
-            
             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
             <a href="javascript:void(0);" class="icon" onclick="openNav()">
                 <i id="hamburger" class="fa fa-bars"></i>
@@ -33,6 +30,9 @@
 
 
             <div id="top">
+                <div id="message">
+                    {{ page.header }}
+                </div>
                 <img src="{{ page.background }}" id="pageImage" />
             </div>
             <nav>

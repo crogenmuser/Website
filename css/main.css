@@ -39,6 +39,12 @@ body{
     padding-top: 5px;
 }
 
+.container > img {
+    width: 500px;
+    height: auto;
+}
+
+
 #bottom {
     width: 100%;
     background-color: #000000;
@@ -66,6 +72,11 @@ body{
         position: relative;
         height: 300px;
         width: 100%;
+    }
+
+    .container > img {
+        width: 500%;
+        
     }
 }
 

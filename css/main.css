@@ -39,7 +39,7 @@ body{
     padding-top: 5px;
 }
 
-#footer {
+#bottom {
     width: 100%;
     
     background-color: #000000;
@@ -47,10 +47,10 @@ body{
     overflow: hidden;
 }
 
-footer > *{
+#bottom > *{
     color: white;
     text-align: center;
-    
+
 }
 
 @media only screen and (max-width: 750px){

@@ -21,7 +21,7 @@ body{
     width: 100%;
     margin: auto;
     position: absolute;
-    bottom: 50px
+    bottom: 50px;
 }
 
 #message > h1{

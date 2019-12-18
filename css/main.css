@@ -58,8 +58,8 @@ img {
     overflow: hidden;
     padding-top: 10px;
     padding-bottom: 10px;
-    bottom: 0px;
-    position: fixed;
+    
+    position: absolute;
 }
 
 #bottom > *{

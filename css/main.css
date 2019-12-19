@@ -40,6 +40,12 @@ body{
     padding-top: 5px;
 }
 
+button p {
+    display: inline;
+    padding-left: 16px;
+    
+}
+
 .dropdown {
     float: left;
     overflow: hidden;

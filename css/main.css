@@ -147,10 +147,22 @@ img {
     width: 100%;
 }
 
+#mySidenav {
+    position: absolute;
+    z-index: 1;
+    right: 5px;
+    top: 40px;
+}
+
+
 @media only screen and (max-width: 550px){
     
     img {
         width: 100%;
+    }
+
+    #mySidenave {
+        top: 0px;
     }
 
     /* The side navigation menu */

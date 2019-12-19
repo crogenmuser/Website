@@ -68,9 +68,11 @@ button p {
     margin: 0; /* Important for vertical align on mobile phones */
 }
 
+/*
 .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
+*/
 
 .dropdown-content {
     display: none;

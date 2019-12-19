@@ -139,18 +139,19 @@ img {
     text-decoration: none;
 }
 
+#top{
+    left: 0px;
+    top: 0px;
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
 @media only screen and (max-width: 750px){
-    #top{
-        left: 0px;
-        top: 0px;
-        position: relative;
-        height: 300px;
-        width: 100%;
-    }
+    
 
     img {
         width: 100%;
-
     }
 }
 

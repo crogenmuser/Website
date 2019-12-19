@@ -3,6 +3,12 @@
 
 }
 
+body{
+    margin: 0px;
+    padding-bottom: 100px;
+}
+
+/* Top of page background image */
 #pageImage{
     left: 0px;
     top: 0px;
@@ -12,19 +18,14 @@
     overflow: hidden;
 }
 
-
-body{
-    margin: 0px;
-    padding-bottom: 100px;
-}
-
+/* Title overlaying the page background */
 #message{
     width: 100%;
     margin: auto;
     position: absolute;
     bottom: 50px;
 }
-
+/* uhhhhh h1 in that title, thing above is div */
 #message > h1{
     text-align: center;
     text-shadow: 2px 2px grey;
@@ -43,7 +44,6 @@ body{
 button p {
     display: inline;
     padding-left: 16px;
-
 }
 
 .dropdown button {

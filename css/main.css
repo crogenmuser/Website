@@ -43,7 +43,12 @@ body{
 button p {
     display: inline;
     padding-left: 16px;
-    
+
+}
+
+.dropdown button {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .dropdown {

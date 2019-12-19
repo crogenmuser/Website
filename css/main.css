@@ -182,8 +182,8 @@ img {
 }
 
 .dropdownName{
-    display: inline;
-    
+    display: inline !important;
+    padding-left: 16px !important;
 }
 
 /* When you mouse over the navigation links, change their color */

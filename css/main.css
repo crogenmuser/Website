@@ -74,6 +74,10 @@ button p {
 }
 */
 
+.spaceFix {
+    display: inline;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;

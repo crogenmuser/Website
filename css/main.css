@@ -41,6 +41,10 @@ body{
     padding-top: 5px;
 }
 
+.icon {
+    display: none;
+}
+
 button p {
     display: inline;
     padding-left: 16px;

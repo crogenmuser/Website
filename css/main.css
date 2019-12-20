@@ -162,6 +162,10 @@ img {
     float: none;
 }
 
+.closebtn {
+    display: none;
+}
+
 
 @media only screen and (max-width: 550px){
     
@@ -169,8 +173,9 @@ img {
         width: 100%;
     }
 
-    #mySidenave {
+    #mySidenav {
         top: 0px;
+        position: fixed;
     }
 
     /* The side navigation menu */

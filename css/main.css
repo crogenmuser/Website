@@ -115,7 +115,6 @@ img {
     margin: auto;
 }
 
-
 #bottom {
     width: 100%;
     background-color: #000000;
@@ -166,6 +165,12 @@ img {
     display: none;
 }
 
+.dropdown {
+    float: none;
+    display: inline;
+    font-size: 20px;
+    padding: 0 0;
+}
 
 @media only screen and (max-width: 550px){
     

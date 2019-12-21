@@ -172,6 +172,10 @@ img {
     padding: 0 0;
 }
 
+.dropbtn {
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 550px){
     
     img {

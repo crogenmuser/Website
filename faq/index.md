@@ -1,4 +1,11 @@
-**“What is Microblading?**
+---
+layout: default
+title: FAQ
+background: /Website/images/beach.jpg
+header: <h1>FAQ's</h1>
+---
+
+**What is Microblading?**
 
 Microblading is the process of implanting color pigment beneath the surface of the skin by means of a small, sterile, disposable needle to produce the appearance of a fuller eyebrow or to enhance the natural features of the face. 
 

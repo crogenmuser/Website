@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FAQ
-background: /Website/images/beach.jpg
+background: /images/beach.jpg
 header: <h1>FAQ's</h1>
 ---
 

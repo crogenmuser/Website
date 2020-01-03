@@ -63,7 +63,7 @@ button p {
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    /*color: white;*/
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
@@ -153,7 +153,7 @@ img {
     padding: 0px 0px 0px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    /*color: white;*/
     transition: 0.3s;
 }
 
@@ -256,7 +256,7 @@ img {
     }
 
     #hamburger {
-        color: white;
+        color: black;
         width: 25px;
         height: 25px;
         font-size: 25px;

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Website
-background: /images/beach.jpg
+background: /images/colleen.jpg
 header: <h1>Color Theory</h1>
 ---
 

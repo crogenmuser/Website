@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FAQ
-background: /images/beach.jpg
+background: /images/colleen_crop.jpg
 header: <h1>FAQ's</h1>
 ---
 

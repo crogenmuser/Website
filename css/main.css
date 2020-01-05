@@ -31,12 +31,12 @@ body {
 }
 
 #logo {
-    width: 35%;
+    width: 175px;
     height: auto;
     position: absolute;
     z-index: 1;
-    padding-left: 5px;
-    padding-top: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 .icon {
@@ -132,6 +132,8 @@ img {
 
 #bottom > a {
     text-decoration: none;
+    text-align: center;
+    color: white;
 }
 
 #top{

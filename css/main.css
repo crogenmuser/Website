@@ -197,6 +197,10 @@ img {
         position: fixed;
     }
 
+    .dropdown {
+        float: none;
+    }
+
     /* The side navigation menu */
     .sidenav {
         height: 100%; /* 100% Full-height */
@@ -212,14 +216,16 @@ img {
     }
 
     /* The navigation menu links */
-    .sidenav a {
+    .sidenav > a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
         color: #818181;
         display: block;
         transition: 0.3s;
+        float: none;
     }
+    
 
     .sidenav p {
         padding: 8px 8px 8px 32px;

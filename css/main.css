@@ -51,6 +51,7 @@ body {
 button p {
     display: inline;
     padding-left: 16px;
+    font-size: 20px;
 }
 
 .dropdown button {
@@ -69,7 +70,7 @@ button p {
     border: none;
     outline: none;
     color: black;
-    padding: 14px 16px;
+    padding: 0px 0px 0px 16px !important;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
@@ -174,7 +175,7 @@ img {
 }
 
 .dropdown {
-    float: none;
+    float: left;
     display: inline;
     font-size: 20px;
     padding: 0 0;

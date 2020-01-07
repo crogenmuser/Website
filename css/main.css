@@ -226,6 +226,7 @@ img {
         display: block;
         transition: 0.3s;
         float: none;
+        text-shadow: none;
     }
     
 
@@ -282,6 +283,10 @@ img {
     
     .spaceFix {
         float: left;
+    }
+
+    button p {
+        text-shadow: none;
     }
 
 }

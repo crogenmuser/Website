@@ -289,6 +289,10 @@ img {
         text-shadow: none;
     }
 
+    .dropdown .dropbtn {
+        padding: 0px 0px 0px 16px !important;
+    }
+
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

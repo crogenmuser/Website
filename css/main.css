@@ -162,7 +162,7 @@ img {
 .sidenav > a {
     padding: 0px 0px 0px 16px;
     text-decoration: none;
-    text-shadow: 2px, 2px, white;
+    text-shadow: 2px 2px white;
     font-size: 22px;
     color: black;
     transition: 0.3s;

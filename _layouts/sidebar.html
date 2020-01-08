@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+    <html lang="en">
+        <div id="holder">
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+            <link rel="stylesheet" type="text/css" href="/css/main.css"> 
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+            <script type="text/javascript" src="/scripts/main.js"></script>
+
+
+		</head>
+		<body>
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                <i id="hamburger" class="fa fa-bars"></i>
+            </a>
+            
+            <a href="/">
+                <img id="logo" src="/images/Logo_Stacked.png" />
+            </a>
+            
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn"><p class="dropdownName">About</p>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/about">Colleen Rogenmuser</a>
+                    </div>
+                </div>
+                <a href="/pricing">Pricing</a>
+                <a href="/portfolio">Portfolio</a>
+                <div class="dropdown">
+                    <button class="dropbtn"><p class="dropdownName">Info</p>
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/faq">FAQ's</a>
+                        <a href="/precare">Pre-Care</a>
+                        <a href="/aftercare">Aftercare</a>
+                        <a href="/policies">Studio Policies</a>
+                    </div>
+                </div>
+                
+                <a href="/contact">Contact</a>
+                <a href="/booking">Booking</a>
+            </div>
+
+
+            <div id="top">
+                <div id="message">{{ page.header }}</div>
+                <img src="{{ page.background }}" id="pageImage" />
+            </div>
+            
+			<div class="container">
+                
+                <div id="smallSideNav">
+                    <a href="/faq">FAQ's</a>
+                    <a href="/precare">Pre-Care</a>
+                    <a href="/aftercare">Aftercare</a>
+                    <a href="/policies">Studio Policies</a>
+                </div>
+
+			    {{ content }}
+			
+			</div><!-- /.container -->
+			
+            <div id="bottom">
+                <p><strong>Color Theory</strong></p>
+                <a href="https://goo.gl/maps/6yhoYxvkTnfNJRqz6"><p>123 East Market Street, West&nbsp;Chester,&nbsp;PA</p></a>
+            </div>
+            
+        </body>
+        </div>
+	</html>
+
+

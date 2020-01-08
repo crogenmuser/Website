@@ -70,7 +70,7 @@ html, body {
 */
 #smallSideNav {
     display: inline-grid;
-    width: 250px;
+    width: 225px;
     height: 100%;
     position: relative;
     z-index: 1;
@@ -100,8 +100,10 @@ html, body {
     The following elements are for Sidenav neighbor
 */
 
-#sidenavNeighbor {
+#sideNavNeighbor {
     display: inline-grid;
+    width: 70%;
+
 }
 
 /*
@@ -384,6 +386,21 @@ img {
     }
 
     .photoAndText {
+        width: 100%;
+    }
+
+    #sideNavNeighbor {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #smallSideNav {
+        text-align: center;
+
+    }
+
+    #sideNavNeighbor {
         width: 100%;
     }
 }

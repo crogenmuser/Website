@@ -35,6 +35,13 @@ body {
     margin-bottom: 10px;
 }
 
+#message > h2 {
+    text-align: center;
+    margin: auto;
+    font-weight: 300;
+    text-shadow: 2px 2px white;
+}
+
 #logo {
     width: 175px;
     height: auto;
@@ -299,4 +306,12 @@ img {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+
+    #message > h1{
+        font-size: 35px;
+    }
+
+    #message > h2{
+        font-size: 22px;
+    }
 }

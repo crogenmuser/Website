@@ -197,9 +197,7 @@ img {
 
 @media only screen and (max-width: 850px){
     
-    img {
-        width: 100%;
-    }
+    
 
     #mySidenav {
         top: 0px;
@@ -316,5 +314,11 @@ img {
 
     #message > h2{
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    img {
+        width: 100%;
     }
 }

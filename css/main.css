@@ -69,14 +69,16 @@ html, body {
     The following elements are for sidenav for the info pages 
 */
 #smallSideNav {
-    width: 160px;
+    display: inline-grid;
+    width: 250px;
     height: 100%;
-    position: fixed;
+    position: relative;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: gray;
+    background-color: white;
     padding-top: 20px;
+    text-align: left;
 }
 
 #smallSideNav a {
@@ -92,6 +94,18 @@ html, body {
 }
 /* 
     End info pages sidenav 
+*/
+
+/*
+    The following elements are for Sidenav neighbor
+*/
+
+#sidenavNeighbor {
+    display: inline-grid;
+}
+
+/*
+    End neighbor
 */
 
 .icon {

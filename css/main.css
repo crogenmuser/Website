@@ -4,7 +4,16 @@
 
 body {
     margin: 0px;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
+}
+
+html, body {
+    height: 100%;
+}
+
+#holder {
+    min-height: 100%;
+    position: relative;
 }
 
 /* Top of page background image */
@@ -124,6 +133,7 @@ button p {
     padding-right: 15px;
     padding-top: 15px;
     text-align: center;
+    padding-bottom: 125px;
 }
 
 .container > p {
@@ -138,13 +148,14 @@ img {
 }
 
 #bottom {
-    width: 100%;
     background-color: #000000;
     object-fit: cover;
     overflow: hidden;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 125px; 
+    width:100%;
     position: absolute;
+    left: 0;
+    bottom: 0; 
 }
 
 #bottom > *{

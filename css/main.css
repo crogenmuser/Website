@@ -44,7 +44,6 @@ body {
 
 .photoAndText {
     width: 500px;
-    padding-top: 15px;
     display: inline-grid;
 }
 
@@ -123,6 +122,7 @@ button p {
 .container {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 15px;
     text-align: center;
 }
 

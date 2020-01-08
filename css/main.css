@@ -259,6 +259,11 @@ img {
 
 .leftOriented {
     text-align: left;
+
+}
+
+.leftOriented li {
+    margin-bottom: 5px
 }
 
 @media only screen and (max-width: 850px){

@@ -72,8 +72,7 @@ html, body {
     display: inline-grid;
     width: 225px;
     height: 100%;
-    position: relative;
-    z-index: 1;
+    position: sticky;
     top: 0;
     left: 0;
     background-color: white;
@@ -397,7 +396,7 @@ img {
 @media screen and (max-width: 800px){
     #smallSideNav {
         text-align: center;
-
+        position: relative;
     }
 
     #sideNavNeighbor {

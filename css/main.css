@@ -273,7 +273,7 @@ img {
 #textContent {
     width: 65%;
     display: inline-grid;
-    margin: 0px 10px;
+    
     text-align: left;
 }
 
@@ -360,7 +360,6 @@ textarea {
 
 #map {
     width: 35%;
-    margin: 0px 10px;
 }
 
 #googlemaps {

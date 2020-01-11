@@ -270,7 +270,7 @@ img {
     Start form :(
 */
 /* Wraps form and content above it */
-#textContent {
+#contactTextContent {
     width: 62%;
     display: inline-grid;
     text-align: left;
@@ -359,7 +359,7 @@ textarea {
 */
 
 #map {
-    width: 32%;
+    width: 35%;
     margin-left: 5px;
 }
 

@@ -24,7 +24,7 @@ header: <h1>Contact Us</h1>
                 </div>
                 <div class="formNames lastName">
                     <label class="formLabel">
-                        <input input="formLName" class="formInput" type="text" required/>
+                        <input id="formLName" class="formInput" type="text" required/>
                         <small>Last Name</small>
                     </label>
                 </div>
@@ -56,9 +56,9 @@ function parseInput(){
     var fName = document.getElementById('formFName').value;
     var lName = document.getElementById('formLName').value;
     
-    if (fName && lName){
-        document.getElementById('names').value = fName + ' ' + lName;
-    }
+    
+    document.getElementById('names').value = fName + ' ' + lName;
+    
     // submit
     document.getElementById('actualSubmit').submit();
 }

@@ -269,8 +269,13 @@ img {
 /**
     Start form :(
 */
-#formWrapper{
+/* Wraps form and content above it */
+#contentWrapper {
     width: 70%;
+}
+
+#formWrapper{
+    width: 100%;
     float: left;
 }
 

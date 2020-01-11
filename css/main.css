@@ -271,10 +271,10 @@ img {
 */
 /* Wraps form and content above it */
 #textContent {
-    width: 65%;
+    width: 62%;
     display: inline-grid;
-    
     text-align: left;
+    margin-right: 5px;
 }
 
 #formWrapper{
@@ -359,7 +359,8 @@ textarea {
 */
 
 #map {
-    width: 35%;
+    width: 32%;
+    margin-left: 5px;
 }
 
 #googlemaps {
@@ -527,10 +528,13 @@ textarea {
 
     #textContent {
         width: 100%;
+        margin: 0;
     }
 
     #map {
         width: 100%;
+        text-align: center;
+        margin: 0;
     }
 
     #googlemaps {

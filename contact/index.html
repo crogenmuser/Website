@@ -36,9 +36,10 @@ header: <h1>Contact Us</h1>
             <input id="formSubject" class="formInput formSingleLine" type="text" required/>
 
             <p>Message <small>*</small></p>
-            <textarea id="formMessage" class="formInput formSingleLine"  name="message"  required></textarea>
+            <textarea id="formMessage" class="formInput formSingleLine" required></textarea>
             
             <input id="names" type="text" name="name" class="hidden" />
+            <input id="goodMessages" type="text" name="message" class="hidden" />
             <input id="submitButton" onclick="parseInput()" type="submit" value="Submit"/>
             <input id="actualSubmit" class="hidden" type="submit" />
         </form>
@@ -56,9 +57,14 @@ function parseInput(){
     var fName = document.getElementById('formFName').value;
     var lName = document.getElementById('formLName').value;
     
-    
+    var subject = document.getElementById('formSubject').value;
+    var body = document.getElementById('formMessage').value;
+
+    var text = '<strong>Subject: ' + subject + '</strong><br><strong>Message: </strong>' + body;    
     document.getElementById('names').value = fName + ' ' + lName;
-    
+
+    document.getElementById('goodMessages').value = text;
+
     // submit
     document.getElementById('actualSubmit').submit();
 }

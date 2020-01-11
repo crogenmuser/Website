@@ -315,6 +315,16 @@ img {
     width: 98%;
 }
 
+textarea {
+    min-width: 95%;
+    max-width: 98%;
+}
+
+#submitButton {
+    border-radius: 0;
+    font-size: 12px;
+}
+
 /**
     End form
 */

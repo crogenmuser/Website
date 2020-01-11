@@ -309,6 +309,7 @@ img {
 .formLabel small {
     display: block;
     text-align: left;
+    margin-left: 5px;
 }
 
 .formSingleLine {

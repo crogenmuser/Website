@@ -57,8 +57,17 @@ function checkForm(){
     var subject = document.getElementById("formSubject").value;
     var message = document.getElementById("formMessage").value;
 
-    
+    if (fName && lName && email && subject && message){
+        console.log(true)
+        return true;
+    } else {
+        console.log(false)
+        alert('bad input')
+        return false;
 
+    }
+
+    
 }
 
 

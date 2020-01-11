@@ -283,7 +283,10 @@ img {
     box-sizing: border-box;
 }
 
-
+.formNames {
+    width: 48%;
+    float: left;
+}
 
 /**
     End form

@@ -178,7 +178,6 @@ button p {
     padding-top: 15px;
     text-align: center;
     padding-bottom: 125px;
-    display: inline-flex;
 }
 
 .container > p {
@@ -272,10 +271,8 @@ img {
 */
 /* Wraps form and content above it */
 #textContent {
-    width: 65;
+    width: 65%;
     display: inline-grid;
-    text-align: left;
-    padding: 10px;
 }
 
 #formWrapper{
@@ -360,8 +357,7 @@ textarea {
 */
 
 #map {
-    /* width: 35%; */
-    margin: 0 15px;
+    width: 35px;
 }
 
 
@@ -513,9 +509,5 @@ textarea {
 
     #sideNavNeighbor {
         width: 100%;
-    }
-
-    .container {
-        display: inline-block;
     }
 }

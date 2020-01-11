@@ -276,7 +276,14 @@ img {
 .formInput{
     border: 1px solid #ccc;
     width: 100%;
+    padding: 12px;
+    margin: 6px 4px;
+    background-color: #fafafa;
+    border-radius: 2px;
+    box-sizing: border-box;
 }
+
+
 
 /**
     End form

@@ -50,23 +50,3 @@ header: <h1>Contact Us</h1>
 <div id="map">
 
 </div>
-
-
-<script>
-function parseInput(){
-    var fName = document.getElementById('formFName').value;
-    var lName = document.getElementById('formLName').value;
-    
-    var subject = document.getElementById('formSubject').value;
-    var body = document.getElementById('formMessage').value;
-
-    var text = '<strong>Subject: ' + subject + '</strong><br><strong>Message: </strong>' + body;    
-    document.getElementById('names').value = fName + ' ' + lName;
-
-    document.getElementById('goodMessages').value = text;
-
-    // submit
-    document.getElementById('actualSubmit').submit();
-}
-
-</script>

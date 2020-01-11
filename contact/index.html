@@ -13,32 +13,34 @@ header: <h1>Contact Us</h1>
         However, if you have any other questions please fill out the following Contact Form and we will get back to you as soon as possible.
     </p>
     <div id="formWrapper">
-        <form action="https://formspree.io/mdoekwnz" method="POST" onSubmit="return checkForm()">
+        <form action="https://formspree.io/mdoekwnz" method="POST" >
             <div id="nameWrapper">
                 <p>Name <small>*</small></p>
                 <div class="formNames">
                     <label class="formLabel">
-                        <input id="formFName" class="formInput" type="text" name="name" />
+                        <input id="formFName" class="formInput" type="text" name="name" required/>
                         <small>First Name</small>
                     </label>
                 </div>
                 <div class="formNames lastName">
                     <label class="formLabel">
-                        <input input="formLName" class="formInput" type="text" />
+                        <input input="formLName" class="formInput" type="text" required/>
                         <small>Last Name</small>
                     </label>
                 </div>
             </div>
             <p>Email Address <small>*</small></p>
-            <input id="formEmail" class="formInput formSingleLine" type="text" name="_replyto" />
+            <input id="formEmail" class="formInput formSingleLine" type="text" name="_replyto" required/>
 
             <p>Subject <small>*</small></p>
-            <input id="formSubject" class="formInput formSingleLine" type="text" />
+            <input id="formSubject" class="formInput formSingleLine" type="text" required/>
 
             <p>Message <small>*</small></p>
-            <textarea id="formMessage" class="formInput formSingleLine"  name="message" ></textarea>
+            <textarea id="formMessage" class="formInput formSingleLine"  name="message"  required></textarea>
             
-            <input id="submitButton" type="submit" value="Submit"/>
+            <input id="names" type="text" name="name" class="hidden" />
+            <input id="submitButton" onclick="parseInput()" type="submit" value="Submit"/>
+            <input id="actualSubmit" class="hidden" type="submit" />
         </form>
     </div> <!-- End formWrapper-->
 
@@ -50,25 +52,15 @@ header: <h1>Contact Us</h1>
 
 
 <script>
-function checkForm(){
-    var fName = document.getElementById("formFName").value;
-    var lName = document.getElementById("formLName").value;
-    var email = document.getElementById("formEmail").value;
-    var subject = document.getElementById("formSubject").value;
-    var message = document.getElementById("formMessage").value;
-
-    if (fName && lName && email && subject && message){
-        console.log(true)
-        return true;
-    } else {
-        console.log(false)
-        alert('bad input')
-        return false;
-
-    }
-
+function parseInput(){
+    var fName = document.getElementById('formFName').value;
+    var lName = document.getElementById('formLName').value;
     
+    if (fName && lName){
+        document.getElementById('names').value = fName + ' ' + lName;
+    }
+    // submit
+    document.getElementById('actualSubmit').submit();
 }
-
 
 </script>

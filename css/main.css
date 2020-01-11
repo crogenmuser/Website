@@ -338,6 +338,10 @@ textarea {
     opacity: 0.6;    
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 /**
     End form
 */

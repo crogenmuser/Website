@@ -270,7 +270,8 @@ img {
     Start form :(
 */
 #formWrapper{
-    width: 600px;
+    width: 70%;
+    float: left;
 }
 
 .formInput{
@@ -344,6 +345,19 @@ textarea {
 
 /**
     End form
+*/
+/**
+    Start Map Section
+*/
+
+#map {
+    width: 200px;
+    float: left;
+}
+
+
+/** 
+    End Map Secion
 */
 
 @media only screen and (max-width: 850px){

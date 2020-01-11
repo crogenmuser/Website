@@ -281,11 +281,27 @@ img {
     background-color: #fafafa;
     border-radius: 2px;
     box-sizing: border-box;
+    font-size: 14px;
 }
 
 .formNames {
     width: 48%;
     float: left;
+}
+
+#nameWrapper {
+    overflow: auto;
+}
+
+#nameWrapper p {
+    text-align: left;
+    margin-bottom: 0px;
+
+}
+
+.formLabel small {
+    display: block;
+
 }
 
 /**

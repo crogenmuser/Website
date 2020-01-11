@@ -273,6 +273,7 @@ img {
 #textContent {
     width: 65%;
     display: inline-grid;
+    margin: 0px 10px;
 }
 
 #formWrapper{
@@ -357,9 +358,14 @@ textarea {
 */
 
 #map {
-    width: 35px;
+    width: 35%;
+    margin: 0px 10px;
 }
 
+#googlemaps {
+    height: 700px;
+    width: 100%;
+}
 
 /** 
     End Map Secion
@@ -508,6 +514,18 @@ textarea {
     }
 
     #sideNavNeighbor {
+        width: 100%;
+    }
+
+    #contactWrapper {
+        display: inline-block;
+    }
+
+    #textContent {
+        width: 100%;
+    }
+
+    #map {
         width: 100%;
     }
 }

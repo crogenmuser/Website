@@ -329,6 +329,12 @@ textarea {
     padding: 10px 20px;
     margin: 10px 7px;
     display: inherit;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+#submitButton:hover {
+    opacity: 0.6;    
 }
 
 /**

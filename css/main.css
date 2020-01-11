@@ -247,7 +247,6 @@ img {
 }
 
 .dropdown {
-    float: left;
     display: inline;
     font-size: 20px;
     padding: 0 0;
@@ -526,7 +525,7 @@ textarea {
         display: inline-block;
     }
 
-    #textContent {
+    #contactTextContent {
         width: 100%;
         margin: 0;
     }

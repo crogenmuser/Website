@@ -293,14 +293,13 @@ img {
     margin-left: 2%;
 }
 
-#nameWrapper {
+#formWrapper {
     overflow: auto;
 }
 
 #nameWrapper p {
     text-align: left;
-    margin-bottom: 0px;
-
+    margin: 20px 0px 2px;
 }
 
 .formLabel small {

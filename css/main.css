@@ -297,6 +297,10 @@ img {
     overflow: auto;
 }
 
+#nameWrapper {
+    overflow: auto;
+}
+
 #formWrapper p {
     text-align: left;
     margin: 20px 0px 2px;
@@ -305,6 +309,10 @@ img {
 .formLabel small {
     display: block;
     text-align: left;
+}
+
+.formSingleLine {
+    width: 98%;
 }
 
 /**

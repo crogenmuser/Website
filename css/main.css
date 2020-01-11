@@ -271,7 +271,8 @@ img {
 */
 /* Wraps form and content above it */
 #textContent {
-    width: 70%;
+    width: 65%;
+    display: inline-grid;
 }
 
 #formWrapper{
@@ -356,8 +357,7 @@ textarea {
 */
 
 #map {
-    width: 200px;
-    float: left;
+    width: 35px;
 }
 
 

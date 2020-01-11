@@ -289,6 +289,10 @@ img {
     float: left;
 }
 
+.formNames .lastName {
+    margin-left: 2%;
+}
+
 #nameWrapper {
     overflow: auto;
 }
@@ -301,7 +305,7 @@ img {
 
 .formLabel small {
     display: block;
-
+    text-align: left;
 }
 
 /**

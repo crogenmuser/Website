@@ -24,5 +24,5 @@ function parseInput(){
     document.getElementById('goodMessages').value = text;
 
     // submit
-    document.getElementById('actualSubmit').submit();
+    document.getElementById('actualSubmit').click();
 }

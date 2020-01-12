@@ -2,7 +2,7 @@
 layout: sidebar
 title: FAQ
 background: /images/colleen_crop.jpg
-header: <h1>FAQ's</h1>
+header: <h1>FAQ'S</h1>
 ---
 
 **What is Microblading?**

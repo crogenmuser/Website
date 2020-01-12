@@ -18,7 +18,7 @@ function parseInput(){
     var subject = document.getElementById('formSubject').value;
     var body = document.getElementById('formMessage').value;
 
-    var text = 'Subject: ' + subject + '\n\nMessage: ' + body;    
+    var text = 'Subject: ' + subject + '\n\n; Message: ' + body;    
     document.getElementById('names').value = fName + ' ' + lName;
 
     document.getElementById('goodMessages').value = text;

@@ -377,7 +377,9 @@ textarea {
 
 @media only screen and (max-width: 850px){
     
-    
+    .dropdownSpacingFix {
+        padding-bottom: 0px;
+    }
 
     #mySidenav {
         top: 0px;

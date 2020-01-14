@@ -569,8 +569,8 @@ textarea {
  }
 
 /* Experimental Photo section */
- #photos {
-    /* Prevent vertical gaps */
+ /*#photos {
+    
     line-height: 0;
      
     -webkit-column-count: 5;
@@ -579,7 +579,7 @@ textarea {
     -moz-column-gap:      0px;
     column-count:         5;
     column-gap:           0px;  
-  }
+  }*/
   
   #photos img {
     /* Just in case there are inline attributes */
@@ -588,7 +588,7 @@ textarea {
     border-width: 5px 10px 5px 10px;
     border-style: solid;
     border-color: white;
-  }
+  }/*
  @media (max-width: 1200px) {
     #photos {
     -moz-column-count:    4;
@@ -616,4 +616,4 @@ textarea {
     -webkit-column-count: 1;
     column-count:         1;
     }
-  }
+  }*/

@@ -585,6 +585,9 @@ textarea {
     /* Just in case there are inline attributes */
     width: 100% !important;
     height: auto !important;
+    border-width: 5px 10px 5px 10px;
+    border-style: solid;
+    border-color: white;
   }
  @media (max-width: 1200px) {
     #photos {
@@ -607,7 +610,7 @@ textarea {
     column-count:         2;
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 450px) {
     #photos {
     -moz-column-count:    1;
     -webkit-column-count: 1;

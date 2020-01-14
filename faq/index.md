@@ -1,6 +1,6 @@
 ---
 layout: sidebar
-title: FAQ
+title: FAQ - Color Theory Cosmetic Tattoo
 background: /images/colleen_crop.jpg
 header: <h1>FAQ'S</h1>
 ---

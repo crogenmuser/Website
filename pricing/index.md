@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pricing
+title: Pricing - Color Theory Cosmetic Tattoo
 background: /images/colleen_crop.jpg
 header: <h1>Pricing</h1>
 ---

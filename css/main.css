@@ -377,7 +377,9 @@ textarea {
 
 @media only screen and (max-width: 850px){
     
-    
+    .dropdownSpacingFix {
+        padding-bottom: 0px !important;
+    }
 
     #mySidenav {
         top: 0px;
@@ -490,11 +492,15 @@ textarea {
 @media screen and (max-width: 450px) {
     #message > h1{
         font-size: 35px;
+        letter-spacing: 0px;
     }
 
     #message > h2{
         font-size: 22px;
+        letter-spacing: 0px;
     }
+
+
 }
 
 @media screen and (max-width: 600px){
@@ -533,7 +539,8 @@ textarea {
     #map {
         width: 100%;
         text-align: center;
-        margin: 0;
+        margin: 0px 0px 8px 0px;;
+        
     }
 
     #googlemaps {

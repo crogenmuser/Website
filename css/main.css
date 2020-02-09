@@ -502,9 +502,7 @@ textarea {
     .sidenav a {font-size: 18px;}
 
 }
-/*
-TODO see if this impacts anything
-*/
+
 @media screen and (max-width: 550px) {
     #message > h1{
         font-size: 32px;

@@ -53,8 +53,8 @@ html, body {
 }
 
 h3 {
-    margin-top: 2px;
-    margin-bottom: 4px;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 .photoAndText {

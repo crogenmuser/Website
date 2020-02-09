@@ -221,6 +221,14 @@ img {
     width: 100%;
 }
 
+#homepageTop{
+    left: 0px;
+    top: 0px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
 #mySidenav {
     position: absolute;
     z-index: 1;
@@ -488,8 +496,10 @@ textarea {
     .sidenav a {font-size: 18px;}
 
 }
-
-@media screen and (max-width: 450px) {
+/*
+TODO see if this impacts anything
+*/
+@media screen and (max-width: 550px) {
     #message > h1{
         font-size: 32px;
         letter-spacing: 0px;

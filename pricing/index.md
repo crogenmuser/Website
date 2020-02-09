@@ -9,6 +9,8 @@ header: <h1>Pricing</h1>
 
 **Initial Service** : $600 *(Includes a 6-8 week touch-up appointment)*
 
+**Partial Microblading**: Starting at $200 *(Please schedule a consult for this service)*
+
 **Follow-Up Services** : 
 
 Six Months after initial service -  $150<br>

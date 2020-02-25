@@ -217,6 +217,7 @@ img {
     text-decoration: none;
     text-align: center;
     color: white;
+    display: inline-block;
 }
 
 #top{

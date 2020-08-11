@@ -5,7 +5,7 @@ background: /images/colleen_crop.jpg
 header: <h1>Pricing</h1>
 ---
 
-## Microblading
+## Microblading + Powder Brows
 
 **Initial Service** : $600 *(Includes a 6-8 week touch-up appointment)*
 
@@ -16,8 +16,3 @@ header: <h1>Pricing</h1>
 Six Months after initial service -  $150<br>
 One Year after initial service -  $200<br>
 Two Years after initial service - $250
-
-**Scalp Micropigmentation**
-
-Pricing discussed during consultation
-

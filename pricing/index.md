@@ -13,6 +13,5 @@ header: <h1>Pricing</h1>
 
 **Follow-Up Services** : 
 
-Six Months after initial service -  $150<br>
 One Year after initial service -  $200<br>
-Two Years after initial service - $250
+Two Years after initial service - $300

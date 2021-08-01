@@ -40,12 +40,15 @@ header: <h1>CONTACT US</h1>
             
             <input id="names" type="text" name="name" class="hidden" />
             <input id="goodMessages" type="text" name="message" class="hidden" />
-            <input id="submitButton" onclick="parseInput()" type="submit" value="Submit"/>
-            <input id="actualSubmit" value="hidden submit" class="hidden" type="submit" 
+            <input id="submitButton" onclick="parseInput()" type="submit" value="Submit"
                 class="g-recaptcha" 
                 data-sitekey="6LfCd9MbAAAAAJN9LdGwtI7x7zN7RNEUbnxUVJZk" 
                 data-callback='onSubmit' 
-                data-action='submit'            
+                data-action='submit'
+            
+            />
+            <input id="actualSubmit" value="hidden submit" class="hidden" type="submit" 
+                            
             />
         </form>
     </div> <!-- End formWrapper-->

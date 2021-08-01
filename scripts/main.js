@@ -23,7 +23,8 @@ function parseInput(){
 
     if (secretFormPhoneNumber !== ''){
         console.log('Test Bot Code');
-        document.getElementById("contact-form").action = "colortheoryct.com";
+        document.getElementById("contact-form").action = "";
+        document.getElementById("contact-form").method = "get";
     }
     document.getElementById('formPhoneNumber').value = 12345;
 

@@ -19,6 +19,14 @@ function parseInput(){
     var body = document.getElementById('formMessage').value;
 
     var text = 'Subject: ' + subject + '\n\n; Message: ' + body;    
+    var secretFormPhoneNumber = document.getElementById('formPhoneNumber').value;
+
+    if (secretFormPhoneNumber !== ''){
+        console.log('Test Bot Code');
+        document.getElementById("contact-form").action = "colortheoryct.com";
+    }
+    document.getElementById('formPhoneNumber').value = 12345;
+
     document.getElementById('names').value = fName + ' ' + lName;
 
     document.getElementById('goodMessages').value = text;

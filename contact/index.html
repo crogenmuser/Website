@@ -13,7 +13,7 @@ header: <h1>CONTACT US</h1>
         However, if you have any other questions please fill out the following Contact Form and we will get back to you as soon as possible.
     </p>
     <div id="formWrapper">
-        <form action="https://formspree.io/mdoekwnz" method="POST" >
+        <form id="contact-form" action="https://formspree.io/mdoekwnz" method="POST" >
             <div id="nameWrapper">
                 <p>Name <small>*</small></p>
                 <div class="formNames">
@@ -31,13 +31,16 @@ header: <h1>CONTACT US</h1>
             </div>
             <p>Email Address <small>*</small></p>
             <input id="formEmail" class="formInput formSingleLine" type="text" name="_replyto" required/>
-
+            
             <p>Subject <small>*</small></p>
             <input id="formSubject" class="formInput formSingleLine" type="text" required/>
 
             <p>Message <small>*</small></p>
             <textarea id="formMessage" class="formInput formSingleLine" required></textarea>
             
+            <p class="hidden">Phone Number <small>*</small></p>
+            <input id="formPhoneNumber" class="hidden" type="text" required/>
+
             <input id="names" type="text" name="name" class="hidden" />
             <input id="goodMessages" type="text" name="message" class="hidden" />
             <input id="submitButton" onclick="parseInput()" type="submit" value="Submit"/>

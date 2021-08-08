@@ -37,13 +37,12 @@ function parseInput(){
 
 function parseQueueSubmission(){
     
-    var formName = document.getElementById('formName');
+    var formName = document.getElementById('formName').value;
     if (formName !== ''){
         document.getElementById("contact-form").action = "";
         document.getElementById("contact-form").method = "get";
     }
     document.getElementById('formName').value = "test";
-    var email = document.getElementById('formEmail');
 
     // submit
     document.getElementById('actualSubmit').click();

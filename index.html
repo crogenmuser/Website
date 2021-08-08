@@ -23,3 +23,25 @@ header: <h1>COLOR THEORY COSMETIC&nbsp;TATTOO</h1><h2>WEST CHESTER, PENNSYLVANIA
         Highly recommended for clients with oily or sun-damaged skin.
     </p>
 </div>
+<div id="formWrapper" style="float: none">
+    <form id="contact-form" action="https://formspree.io/xwklprpg" method="POST" >
+        <h2>Enter your email here</h2>
+        <small>Submit your email below to be notified when my books reopen.<br></small>
+        <input id="formEmail" class="formInput formSingleLine" placeholder="Email" type="text" name="_replyto" required
+        style="max-width: 500px;
+            text-align: center;
+            margin: auto;
+            display: block;
+            margin-top: 15px;"
+        />
+        <input id="formName" class="hidden" type="text" required/>
+        <input id="submitButton" onclick="parseQueueSubmission()" type="submit" value="Submit"
+            style="max-width: 500px;
+                max-width: 500px;
+                display: block;
+                margin: auto;
+                width: -webkit-fill-available;"
+        />
+        <input id="actualSubmit" value="hidden submit" class="hidden" type="submit" />
+    </form>
+</div>

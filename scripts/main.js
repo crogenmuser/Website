@@ -22,7 +22,6 @@ function parseInput(){
     var secretFormPhoneNumber = document.getElementById('formPhoneNumber').value;
 
     if (secretFormPhoneNumber !== ''){
-        console.log('Test Bot Code');
         document.getElementById("contact-form").action = "";
         document.getElementById("contact-form").method = "get";
     }
@@ -31,6 +30,20 @@ function parseInput(){
     document.getElementById('names').value = fName + ' ' + lName;
 
     document.getElementById('goodMessages').value = text;
+
+    // submit
+    document.getElementById('actualSubmit').click();
+}
+
+function parseQueueSubmission(){
+    
+    var formName = document.getElementById('formName');
+    if (formName !== ''){
+        document.getElementById("contact-form").action = "";
+        document.getElementById("contact-form").method = "get";
+    }
+    document.getElementById('formName').value = "test";
+    var email = document.getElementById('formEmail');
 
     // submit
     document.getElementById('actualSubmit').click();

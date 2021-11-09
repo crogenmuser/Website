@@ -7,9 +7,9 @@ header: <h1>Pricing</h1>
 
 ## Microblading + Powder Brows
 
-**Initial Service** : $600 *(Includes a 6-8 week touch-up appointment)*
+**Initial Service** : $675 *(Includes a 6-8 week touch-up appointment)*
 
-**Partial Microblading**: Starting at $200 *(Please schedule a consult for this service)*
+**Partial Microblading**: Starting at $250 *(please email photos to <colortheoryct@gmail.com> for approval to book this service)*
 
 **Follow-Up Services** : 
 

@@ -11,7 +11,7 @@ Microblading is the process of implanting color pigment beneath the surface of t
 
 **How long does Microblading last?**
 
-The treatment is considered semi-permanent and will not wash off; however, it will fade over time and may require a touch up every 6 months-two years. Frequency of touch-ups depends on a number of factors including: the pigment color used (lighter colors fade faster), lifestyle (sun exposure), iron deficiency (your body absorbs iron-oxide as a supplement), and if any chemical peels come into contact with the treated areas. Please note that final results cannot be guaranteed as each unique skin type will hold pigments differently and break down at different rates.  The tattooed hair strokes tend to have a more crisp look once healed on dry skin compared to more blurry strokes on oily skin. 
+The treatment is considered semi-permanent and will not wash off; however, it will fade over time and may require a touch up every 1-2 years. Frequency of touch-ups depends on a number of factors including: the pigment color used (lighter colors fade faster), lifestyle (sun exposure), iron deficiency (your body absorbs iron-oxide as a supplement), and if any chemical peels come into contact with the treated areas. Please note that final results cannot be guaranteed as each unique skin type will hold pigments differently and break down at different rates.  The tattooed hair strokes tend to have a more crisp look once healed on dry skin compared to more blurry strokes on oily skin. 
 Touch-ups are normal for cosmetic tattoo procedures.  The initial procedure is followed by a touch-up appointment 6-8 weeks later.
 
 **Can I get my eyebrows Microbladed if they were previously tattooed?**
@@ -32,4 +32,6 @@ You must be 18 years old to get Microblading.
 
 **How can I book an appointment?**
 
-While appointments may be reserved online through our website and the Vagaro app, we do require a $100 non refundable deposit to reserve your appointment. We ask that you please call the studio to make this deposit as well as have any questions you may have answered before you book.”
+Existing clients can book a One or Two Year Touch Up through Vagaro online, or send an email to <a href="mailto: colortheoryct@gmail.com">colortheoryct@gmail.com</a> for appointment availability.  
+
+New clients may send an email to inquire about appointment availability.  Openings for new clients may not be available at this time depending on the number of existing yearly clients that have scheduled for that month.

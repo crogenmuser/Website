@@ -9,8 +9,6 @@ header: <h1>Pricing</h1>
 
 **Initial Service** : $675 *(Includes a 6-8 week touch-up appointment)*
 
-**Partial Microblading**: Starting at $250 *(please email photos to <colortheoryct@gmail.com> for approval to book this service)*
-
 **Follow-Up Services** : 
 
 One Year after initial service -  $200<br>
